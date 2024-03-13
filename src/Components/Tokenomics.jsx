@@ -2,7 +2,7 @@ import React from "react";
 
 const Tokenomics = () => {
   return (
-    <div className="w-[1370px] max-w-[96vw] m-auto mt-[16rem]">
+    <div className="w-[1370px] max-w-[96vw] m-auto rs4:mt-[16rem] mt-[7rem]">
       <div className="text-center ">
         <h1 className="pt-[10px] pr-[20px] pl-[20px] tokens font-bold">
           PENG TOKENOMICS

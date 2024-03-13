@@ -3,7 +3,7 @@ import React from "react";
 const Available = () => {
   return (
     <>
-      <div className="w-[1370px] max-w-[98vw] m-auto  mt-[5rem]  border-[2px] border-black">
+      <div className="w-[1370px] max-w-[98vw] m-auto  rs4:mt-[5rem] -mt-[7rem]">
         {/* ABoUt texT */}
         <div className="relative">
           {/* Ellipse Background */}
@@ -28,14 +28,14 @@ const Available = () => {
       </div>
 
       {/* BaCkGr ImG */}
-      <div className="relative mt-[36rem]">
+      <div className="relative rs4:mt-[36rem] mt-[30rem]">
         <img
           src="./assets/available-background.svg"
           className="absolute left-0 top-[50%] translate-y-[-35%] "
           alt=""
         />
         <div className="flex flex-col gap-12 available__container">
-          <h1 className="text-center text-[#FFF] leading-[100%] text-[71px] font-bold">
+          <h1 className="text-center text-[#FFF] leading-[100%] rs4:text-[71px] text-[50px] font-bold">
             AVAILABLE ON
           </h1>
           {/*  */}

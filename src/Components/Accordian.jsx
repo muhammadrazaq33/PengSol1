@@ -40,7 +40,7 @@ export function AccordianItem({ children, value, trigger, ...props }) {
         {/* {trigger} */}
         <p className="">{trigger}</p>
         {open ? (
-          <div className="rs4:w-[58px] w-[50px] rs4:h-[58px] h-[50px] grid place-items-center bg-white text-[black] rounded-lg">
+          <div className="rs4:w-[58px] w-[50px] rs4:h-[58px] h-[50px] flex justify-center items-center gap-9 bg-white text-[black] rounded-lg flex-shrink-0">
             {" "}
             <FaMinus
               size={23}
@@ -48,7 +48,7 @@ export function AccordianItem({ children, value, trigger, ...props }) {
             />
           </div>
         ) : (
-          <div className="rs4:w-[58px] w-[50px] rs4:h-[58px] h-[50px] grid place-items-center bg-black text-[#FFF] rounded-lg">
+          <div className="rs4:w-[58px] w-[50px] rs4:h-[58px] h-[50px] flex justify-center items-center bg-black text-[#FFF] rounded-lg gap-9 flex-shrink-0">
             <FaPlus
               size={23}
               className={`transition-transform ${open ? "rotate-360" : ""}`}

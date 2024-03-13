@@ -2,7 +2,7 @@ import React from "react";
 
 const Avatar = () => {
   return (
-    <div className="w-[1370px] max-w-[98vw] m-auto mt-[12rem]">
+    <div className="w-[1370px] max-w-[98vw] m-auto rs4:mt-[12rem] mt-[6rem]">
       <div className="flex flex-col items-center gap-16">
         {/* TEXT  =====> */}
         <div className="flex flex-col items-center gap-6">
