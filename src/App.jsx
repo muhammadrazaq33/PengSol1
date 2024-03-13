@@ -5,6 +5,7 @@ import Avatar from "./Components/Avatar";
 import Banner from "./Components/Banner";
 import Buy from "./Components/Buy";
 import Community from "./Components/Community";
+import Faq from "./Components/Faq";
 import Navbar from "./Components/Navbar";
 import Tokenomics from "./Components/Tokenomics";
 
@@ -21,6 +22,7 @@ function App() {
         <Buy />
         {/* <Community /> */}
         <Avatar />
+        <Faq />
       </div>
     </>
   );
