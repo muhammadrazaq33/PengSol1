@@ -58,6 +58,11 @@ body {
   transform: translateX(-50%);
   bottom: -60px;
 }
+@media screen and (width <= 1090px) {
+  .banner__top > div {
+    bottom: -190px;
+  }
+}
 
 .banner__text > div > div {
   width: 100%;
